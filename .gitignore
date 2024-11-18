@@ -1,0 +1,43 @@
+
+
+
+# Ignore model files
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# Ignore result files and generated plots
+results/
+results/plots/
+results/forecasts/
+results/portfolio_analysis/
+
+
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment files
+venv/
+.env/
+*.env
+.new_env/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.csv
+*.xlsx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+
